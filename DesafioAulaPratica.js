@@ -13,11 +13,11 @@ function numberChecker(num1,num2){
 
     // confere se é maior/menor/igual a 10:
     if (numberSum > 10){
-        isBiggerThan10 = "maior"
+        isBiggerThan10 = "maior que"
     }else if (numberSum === 0){
-        isBiggerThan10 = "igual"
+        isBiggerThan10 = "igual a"
     }else{
-        isBiggerThan10 = "menor"
+        isBiggerThan10 = "menor que"
     }
 
     // confere se é maior/menor/igual a 10:
