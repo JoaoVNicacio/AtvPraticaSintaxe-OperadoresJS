@@ -22,15 +22,15 @@ function numberChecker(num1,num2){
 
     // confere se é maior/menor/igual a 10:
     if (numberSum > 20){
-        isBiggerThan20 = "maior"
+        isBiggerThan20 = "maior que"
     }else if (numberSum === 0){
-        isBiggerThan20 = "igual"
+        isBiggerThan20 = "igual a"
     }else{
-        isBiggerThan20 = "menor"
+        isBiggerThan20 = "menor que"
     }
 
     // retorno da função:
-    return `${num1} e ${num2} são ${isEqual}.\n O valor de sua soma é: ${numberSum}.\n Sua soma é ${isBiggerThan10} que 10.\n Sua soma é ${isBiggerThan20} que 20.`
+    return `${num1} e ${num2} são ${isEqual}.\n O valor de sua soma é: ${numberSum}.\n Sua soma é ${isBiggerThan10} 10.\n Sua soma é ${isBiggerThan20} 20.`
 }
 
 // obtenção dos valores dos inputs do usuário:
